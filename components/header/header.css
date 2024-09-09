@@ -1,0 +1,43 @@
+.header__banner{
+	background-image: url(../../public/banner.png);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 1440px) {
+	.header__banner{
+	height: 225px;
+	}
+}
+
+@media (max-width: 1025px) {
+	.header__banner{
+		height: 160px;
+	}
+}
+
+@media (max-width: 880px) {
+	.header__sotial{
+		flex-direction: column;
+	}
+	.header__sotial-item{
+		margin-right: 0;
+	}
+	.burger__header-items{
+		margin-right: 6px;
+	}
+}
+
+@media (max-width: 769px) {
+	.header__banner{
+		height: 120px;
+	}
+}
+
+@media (max-width: 480px) {
+	.header__banner{
+		height: 56px;
+	}
+}

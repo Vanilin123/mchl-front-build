@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  max-width: 1634px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media (max-width: 1280px) {
+  .container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 0px) {
+  .container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

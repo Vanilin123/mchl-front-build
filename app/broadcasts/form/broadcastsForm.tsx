@@ -1,7 +1,7 @@
 import { Field } from '../../../components/Fields/Field'
 import { Controller, SubmitHandler, useFormContext } from 'react-hook-form'
 // @ts-ignore
-import { Button } from '../../../../components/buttons/Button'
+import { Button } from '../../../components/buttons/Button'
 import { useState } from "react";
 // @ts-ignore
 import type { TypeBroadcasts } from '@/types/broadcasts.types'

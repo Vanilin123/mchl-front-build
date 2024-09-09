@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image'
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { useCalendar } from '../../app/(site)/calendar/hooks/useCalendar'
+import { useCalendar } from '../../app/calendar/hooks/useCalendar'
 import { News } from '../../app/(site)/news/news.block'
 
 function PauseOnHover() {

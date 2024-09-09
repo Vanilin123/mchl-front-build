@@ -1,7 +1,7 @@
 'use client'
 
 
-import { CalendarList } from '../../../app/(site)/calendar/CalendarList'
+import { CalendarList } from '../../../app/calendar/CalendarList'
 import { FormProvider, useForm } from "react-hook-form"
 import { CalendaringForm } from "./form/calendarForm"
 

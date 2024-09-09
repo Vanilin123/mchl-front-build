@@ -1,7 +1,7 @@
 import { Field } from '../../../components/Fields/Field'
 import { Controller, SubmitHandler, useFormContext } from 'react-hook-form'
 // @ts-ignore
-import { Button } from '../../../../components/buttons/Button'
+import { Button } from '../../../components/buttons/Button'
 import { useProfile } from '../../../hooks/useProfile'
 import { useCreateNews } from './useCreateNews'
 import { useUpdateNews } from './useUpdateNews'

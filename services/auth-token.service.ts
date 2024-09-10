@@ -12,7 +12,7 @@ export const getAccessToken = () => {
 
 export const saveTokenStorage = (accessToken: string) => {
 	Cookies.set(EnumTokens.ACCESS_TOKEN, accessToken, {
-		domain: 'localhost',
+		domain: 'vanilin123-mchl-front-build-a852.twc1.net',
 		sameSite: 'strict',
 		expires: 1
 	})

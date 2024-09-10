@@ -8,7 +8,7 @@ import {
 import { authService } from '../services/auth.service'
 
 const options: CreateAxiosDefaults = {
-	baseURL: 'http://vanilin123-mchl-back-rep-ce3d.twc1.net/api',
+	baseURL: 'https://vanilin123-mchl-back-rep-ce3d.twc1.net/api',
 	headers: {
 		'Content-Type': 'application/json'
 	},
